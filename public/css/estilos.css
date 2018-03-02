@@ -8,6 +8,10 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
+p{
+    font-family: 'Barlow', sans-serif;
+}
+
 .container-fluid {
     position:fixed;
     bottom:0;
@@ -33,3 +37,45 @@ margin: 0 auto;
     padding-right: 20%;
     padding-left: 20%;
 }
+
+.textoindex2 {
+   margin-left: -38%;
+    margin-bottom: 3%;
+}
+
+.newstexto2{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.vl {
+    border-top: 4px solid #003459;
+    width: 1080px;
+    position: absolute;
+    margin-top: 2.5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   
+}
+/* Map */
+.map {
+    height: 30rem;
+  }
+  
+  @media (max-width: 992px) {
+    .map {
+      height: 75%;
+    }
+  }
+  
+  .map iframe {
+    pointer-events: none;
+  }
+  hr {
+    margin-top: 2.5%;
+    border-top: 4px solid #003459;
+  }
+
+  .contacto {
+      margin-top: 2%;
+  }
